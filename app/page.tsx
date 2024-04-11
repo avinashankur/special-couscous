@@ -114,7 +114,7 @@ export default function Home() {
                 <div className="absolute bottom-0 bg-white py-6 px-4 group-hover:translate-y-full transition duration-500">
                   <div className="flex justify-between font-bold gap-4">
                     <h2>{item.mainText}</h2>
-                    <p>$550.16</p>
+                    <p>{item.price}</p>
                   </div>
                   <p className="my-3 font-medium">{item.place}</p>
                   <div className="flex gap-3 items-center font-bold text-orange-500">
