@@ -111,7 +111,7 @@ export default function Home() {
                   width={300}
                   alt="image1"
                 />
-                <div className="absolute bottom-0 w-full bg-white py-6 px-4 group-hover:translate-y-full transition duration-500">
+                <div className="absolute -bottom-1/2 w-full h-full border hover:bg-white/90 bg-white/60  py-6 px-4 group-hover:-translate-y-1/2 transition duration-500">
                   <div className="flex justify-between font-bold gap-4">
                     <h2>{item.mainText}</h2>
                     <p>{item.price}</p>

@@ -26,7 +26,7 @@ export default function Header() {
         ))}
       </div>
       <div className="md:flex hidden gap-4 text-sm">
-        <button className="font-medium">Login</button>
+        <button className="font-medium hover:bg-theme hover:text-white py-2 px-6 bg-white transition rounded-3xl">Login</button>
         <button className="bg-theme text-white px-6 py-2 rounded-3xl font-semibold">
           Sign Up
         </button>
