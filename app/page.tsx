@@ -86,13 +86,13 @@ export default function Home() {
             <div className="flex justify-between md:justify-start gap-8">
               <button
                 title="arrow"
-                className="p-8 border rounded-full hover:bg-theme hover:text-white text-xl transition"
+                className="p-8 border rounded-full hover:bg-theme hover:-translate-x-2 hover:text-white text-xl transition"
               >
                 <IoIosArrowRoundBack />
               </button>
               <button
                 title="arrow"
-                className="p-8 border rounded-full hover:bg-theme hover:text-white text-xl transition"
+                className="p-8 border rounded-full bg-theme text-white hover:bg-theme hover:translate-x-2 hover:text-white text-xl transition"
               >
                 <IoIosArrowRoundForward />
               </button>
