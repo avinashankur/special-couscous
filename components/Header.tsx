@@ -15,6 +15,7 @@ export default function Header() {
       <div className="md:flex hidden gap-8 text-sm text-neutral-500 font-medium">
         {headLinks.map((item, index) => (
           <Link
+            key={item.label}
             href={item.url}
             className={`hover:text-black transition ${
               index === 0 ? "font-bold text-black" : ""
